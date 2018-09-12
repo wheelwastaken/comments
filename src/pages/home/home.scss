@@ -1,3 +1,293 @@
 page-home {
+    .main{
+        background-color: #75dfb9;
+    }
 
+    /* HEADER */
+
+    .header{
+        background-color: #1d202b;
+        width: 100%;
+    }
+    
+    .header h1{
+        color: white;
+        padding: 0.5em;
+        font-family: 'Bebas';
+        margin-left: 3.5em;
+    }
+
+    .header button{
+        font-family: 'Avenir Next Condensed';
+    }
+
+    .back{
+        background-color: #1d202b;
+        color: white;
+        border: 1px solid #b8b8b8;
+        float: left;
+        padding: 0.75em 1em 0.75em 1em;
+        margin-left: 1.25em;
+        margin-top: 1.25em;
+    }
+
+    /* CONTENT/MAIN */
+
+    .content{
+        width: 95%;
+        margin-left: 0.5em;
+    }
+
+    .content2{
+        width: 90%;
+        margin-left: 1em;
+        margin-top: 0.25em;
+    }
+
+    .content2 input{
+        padding: 0.5em;
+        width: 100%;
+        font-family: 'Avenir Next Condensed';
+    }
+
+    /* BOX 1 */
+
+    .box1{
+        min-height: 100px;
+        margin-top: 1em;
+        background-color: #1d202b;
+        // height: 100%;
+    }
+    .box1 h2{
+        color: #75dfb9;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        font-family: 'Avenir Next Condensed';
+        font-weight: bold;
+    }
+    .box1 p{
+        padding-left: 1em;
+        color: #b8b8b8;
+    }
+
+    /* BOX 2 */
+
+    .box2{
+        margin-top: 1em;
+        background-color: #1d202b;
+        height: 100%;
+    }
+    .box2 h2{
+        color: #75dfb9;
+        margin-top: 10em;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        font-family: 'Avenir Next Condensed';
+        font-weight: bold;
+    }
+    .box2 p{
+        padding-left: 1em;
+        color: #b8b8b8;
+    }
+    .date{
+        background-color: #2F3341;
+        padding: 0.25em;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-weight: medium;
+    }
+
+    .date span{
+        text-align: right;
+        margin-left: 12em;
+    }
+
+    .date button{
+        background-color: #2F3341;
+        color: #75dfb9;
+        padding: 0.5em 1em;
+        margin-right: 0.5em;
+    }
+
+    .date button:active{
+        background-color: #75dfb9;
+        color: #2F3341;
+    }
+
+    .bottomBar{
+        background-color: #2F3341;
+        padding: 0.25em;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-weight: medium;
+    }
+
+    .bottomBar button{
+        background-color: #2F3341;
+        color: #75dfb9;
+        padding: 0.5em 1em;
+    }
+
+    .bottomBar button:active{
+        background-color: #75dfb9;
+        color: #2F3341;
+    }
+
+    .eventInfo{
+        // width: 65%;
+        float: left;
+    }
+
+    .eventDate{
+        height: 100%;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1em;
+        font-weight: bold;
+        color: #75dfb9;
+        // width: 30%;
+        float: right;
+        border-left: 1px solid #b8b8b8;
+        padding-left: 0.15em;
+        padding-right: 0.15em;
+        text-align: center;
+    }
+
+    .dateNum{
+        font-size: 3em;
+    }
+
+    .eventTime{
+        height: 100%;
+        font-family: 'Avenir Next Condensed';
+        font-weight: bold;
+        font-size: 1.25em;
+        color: #75dfb9;
+        float: right;
+        margin-bottom: 2em;
+        border-left: 1px solid #b8b8b8;
+        padding-left: 1em;
+        padding-right: 0.15em;
+        text-align: center;
+    }
+
+    textarea{
+        font-family: 'Avenir Next Condensed';
+        
+    }
+
+    /* UNIVESAL NAV BAR */ 
+
+    .buttons{
+        
+        list-style-type: none;
+    }
+
+    .leftButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        padding: 0.5em;
+        float: left;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .midButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        float: left;
+        padding: 0.5em;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .midButton2{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        padding: 0.5em;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .rightButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        padding: 0.5em;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .leftButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .midButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .midButton2:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .rightButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    /* COMMENT BOX */
+
+    .commentBox{
+        margin-top: 1em;
+        background-color: #1d202b;
+        height: 100%;
+    }
+
+    .commentBox h3{
+        color: #75dfb9;
+        margin-top: 10em;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        font-family: 'Avenir Next Condensed';
+        font-weight: bold;
+    }
+
+    .commentBox p{
+        padding-left: 1em;
+        color: #b8b8b8;
+    }
+
+    .commentDate{
+        background-color: #2F3341;
+        padding: 0.25em;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-weight: medium;
+    }
+
+    .commentDate span{
+        text-align: right;
+        margin-left: 10.5em;
+    }
+
+    .commentDate button{
+        background-color: #2F3341;
+        color: #75dfb9;
+        padding: 0.5em 1em;
+        margin-right: 0.5em;
+    }
+
+    .commentDate button:active{
+        background-color: #75dfb9;
+        color: #2F3341;
+    }
 }
